@@ -1,0 +1,14 @@
+import UIKit
+
+
+enum Season
+{
+    case summer
+    case winter
+    case spring
+    case autumn
+}
+
+var object = Season.summer
+
+print("this is the season name \(object)")
